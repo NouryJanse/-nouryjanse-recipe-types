@@ -1,1 +1,1 @@
-# -nouryjanse-recipe-types
+# recipe-types
