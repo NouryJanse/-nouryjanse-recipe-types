@@ -62,3 +62,14 @@ export const getDifferenceInFormat = (
 ): number => {
   return dayjs().diff(date, format, true);
 };
+
+export default {
+  getDateTime,
+  formatDateTime,
+  formatNLDateTime,
+  formatUTCDateTime,
+  getTime,
+  getTodayMinusDays,
+  getDifferenceInText,
+  getDifferenceInFormat,
+};
